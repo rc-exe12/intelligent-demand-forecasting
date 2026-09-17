@@ -226,4 +226,71 @@ Inventory
       ┌─────────────────┐
       │ Data Processing  │
       └────────┬────────┘
-```
+    │
+               ▼
+      ┌─────────────────┐
+      │ Trend Detection │
+      └────────┬────────┘
+               │
+               ▼
+      ┌─────────────────┐
+      │ Forecast Engine │
+      └────────┬────────┘
+               │
+        ┌──────┴───────┐
+        ▼              ▼
+   Anomaly         Inventory
+   Detection      Intelligence
+        │              │
+        └──────┬───────┘
+               ▼
+       ┌────────────────┐
+       │   Dashboard    │
+       └────────────────┘
+🔮 Forecasting Approach
+
+KARIGAR X uses statistical time-series analysis to identify demand patterns from historical sales data.
+
+The forecasting pipeline considers:
+
+Historical demand
+Trend
+Seasonality
+Recent demand behavior
+Anomalies
+Product-level sales patterns
+
+This approach keeps the system lightweight and suitable for rapid deployment without requiring GPU-based deep learning models.
+
+📈 Business Impact
+
+KARIGAR X can help businesses:
+
+Reduce unnecessary inventory
+Identify potential stockouts
+Improve demand planning
+Understand customer demand patterns
+Make faster inventory decisions
+Detect unusual sales behavior
+🚀 Future Scope
+
+Future versions can include:
+
+Real-time demand forecasting
+Live POS integration
+Automated purchase-order recommendations
+Multi-store forecasting
+Advanced machine-learning models
+Deep-learning forecasting
+Mobile application
+Multilingual support
+Cloud-based data synchronization
+👥 Team
+
+Codeathon Project — Intelligent Demand Forecasting
+
+Built by the KARIGAR X team.
+
+📜 License
+
+This project is developed for educational and demonstration purposes.
