@@ -529,10 +529,6 @@ Developed as a collaborative engineering project.
 ### Team Members
 
 * Ramcharan Sai
-* Manikanta Ram
-* S. Navaneeth
-* Ch. Jagadeesh
-* D. Revanth Reddy
 
 ### Institution
 
